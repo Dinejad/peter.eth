@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>peter.eth</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== PAGE LOADER ===== -->
+    <div id="loader">
+      <div class="loader-logo">peter.eth<span></span></div>
+      <div class="loader-bar"></div>
+    </div>
+
+    <!--HEADER-->
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <h1 class="logo">peter.eth</h1>
+
+          <!-- Hamburger -->
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+
+          <!-- Nav links -->
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="reveal">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="highlight">Peter</span> 👋</h1>
+          <h2>Web3 Creator & Crypto Trader</h2>
+          <p>
+            I build cool things on the internet — from blockchain education to
+            creative AI tools.
+          </p>
+          <a href="#projects" class="btn">View My Projects</a>
+        </div>
+        <div class="hero-image">
+          <img src="assets/me.jpg" alt="Peter" />
+        </div>
+      </div>
+    </section>
+
+    <!--PROJECTS SECTION -->
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+      <p>Here are some cool things I’ve worked on recently:</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="assets/evm-ai-chat.jpg" alt="EVM AI Chat" />
+          <div class="project-info">
+            <h3>EVM AI Chat</h3>
+            <p>
+              An AI chatbot that deploys smart contracts via natural language.
+            </p>
+            <a href="#" target="_blank">View Project →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/dinochain.jpg" alt="DinoChain" />
+          <div class="project-info">
+            <h3>DinoChain</h3>
+            <p>
+              A Web3 education brand designed to teach blockchain for Gen Z.
+            </p>
+            <a href="https://www.youtube.com/@dinolovescrypto" target="_blank">View Project →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/ebook.png" alt="Trading Lab" />
+          <div class="project-info">
+            <h3>Trading E-Book</h3>
+            <p>A Step-by-Step E-Book for Building a Strong Foundation in Crypto Trading.</p>
+            <a href="https://lynk.id/peteristicc" target="_blank">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="reveal">
+      <h2>Skills</h2>
+      <p>These are the technologies and tools I work with:</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="assets/html5.svg" alt="HTML" />
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-card">
+          <img src="assets/css.svg" alt="CSS" />
+          <h3>CSS</h3>
+        </div>
+        <div class="skill-card">
+          <img src="assets/javascript.svg" alt="JavaScript" />
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <img src="assets/react.svg" alt="React" />
+          <h3>React</h3>
+        </div>
+        <div class="skill-card">
+          <img src="assets/bitcoin.svg" alt="Web3" />
+          <h3>Web3</h3>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT SECTION-->
+    <section id="contact" class="reveal">
+      <h2>Contact Me</h2>
+      <p>Have a question or just want to say hi? Let’s connect!</p>
+
+      <form
+        action="https://formspree.io/f/xdkpqqdq"
+        method="POST"
+        class="contact-form"
+      >
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="_replyto"
+            placeholder="Your email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!--SOCIAL MEDIA SECTION-->
+    <section id="socmed" class="reveal">
+      <h2>Social Media</h2>
+
+      <div class="socmed-container">
+        <a
+          href="https://x.com/dinolovescrypto"
+          class="socmed-link"
+          target="_blank"
+        >
+          <img src="assets/x.svg" alt="Twitter/X" />
+          <span>X</span>
+        </a>
+
+        <a
+          href="https://instagram.com/peteristic_"
+          class="socmed-link"
+          target="_blank"
+        >
+          <img src="assets/instagram.svg" alt="Instagram" />
+          <span>Instagram</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 peter.eth. All rights reserved.</p>
+    </footer>
+    <!-- BACK TO TOP BUTTON -->
+    <button id="backToTop" title="Go to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
