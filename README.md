@@ -28,5 +28,5 @@ Designed with a minimal aesthetic and smooth micro-interactions — perfect for 
 Clone the project:
 
 ```bash
-git clone https://github.com/Dinejad/peter.eth-portfolio.git
+git clone https://github.com/peteristic-eth/peter.eth-portfolio.git
 cd peter.eth-portfolio
